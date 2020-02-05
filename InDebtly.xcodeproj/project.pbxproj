@@ -19,6 +19,11 @@
 		E3EE828C23E7A72C00B057C0 /* MainInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE828B23E7A72C00B057C0 /* MainInterfaceView.swift */; };
 		E3EE828E23E7A80C00B057C0 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE828D23E7A80C00B057C0 /* ScaledFont.swift */; };
 		E3EE829223E7A8A500B057C0 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE829123E7A8A500B057C0 /* ActivityIndicatorView.swift */; };
+		E3FD235E23EA6C9B003861AE /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD235D23EA6C9B003861AE /* TabbedView.swift */; };
+		E3FD236023EA6D0D003861AE /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD235F23EA6D0D003861AE /* OverviewView.swift */; };
+		E3FD236223EA6D15003861AE /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD236123EA6D15003861AE /* SavingsView.swift */; };
+		E3FD236423EA6D1D003861AE /* DebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD236323EA6D1D003861AE /* DebtView.swift */; };
+		E3FD236623EA6D24003861AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD236523EA6D24003861AE /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		E3EE828B23E7A72C00B057C0 /* MainInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterfaceView.swift; sourceTree = "<group>"; };
 		E3EE828D23E7A80C00B057C0 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
 		E3EE829123E7A8A500B057C0 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E3FD235D23EA6C9B003861AE /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		E3FD235F23EA6D0D003861AE /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		E3FD236123EA6D15003861AE /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		E3FD236323EA6D1D003861AE /* DebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtView.swift; sourceTree = "<group>"; };
+		E3FD236523EA6D24003861AE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 			children = (
 				E3EE828B23E7A72C00B057C0 /* MainInterfaceView.swift */,
 				E3EE829123E7A8A500B057C0 /* ActivityIndicatorView.swift */,
+				E3FD235D23EA6C9B003861AE /* TabbedView.swift */,
+				E3FD235F23EA6D0D003861AE /* OverviewView.swift */,
+				E3FD236123EA6D15003861AE /* SavingsView.swift */,
+				E3FD236323EA6D1D003861AE /* DebtView.swift */,
+				E3FD236523EA6D24003861AE /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,14 +196,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3EE828E23E7A80C00B057C0 /* ScaledFont.swift in Sources */,
+				E3FD236423EA6D1D003861AE /* DebtView.swift in Sources */,
 				E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */,
 				E3EE827A23E7A71D00B057C0 /* InDebtly.xcdatamodeld in Sources */,
 				E3EE828C23E7A72C00B057C0 /* MainInterfaceView.swift in Sources */,
 				E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */,
 				E3EE827C23E7A71D00B057C0 /* ContentView.swift in Sources */,
+				E3FD236623EA6D24003861AE /* SettingsView.swift in Sources */,
+				E3FD235E23EA6C9B003861AE /* TabbedView.swift in Sources */,
 				E3EE827723E7A71D00B057C0 /* SceneDelegate.swift in Sources */,
 				E3EE829223E7A8A500B057C0 /* ActivityIndicatorView.swift in Sources */,
 				E33ACA0423E9CE8D00C94A6A /* Constants.swift in Sources */,
+				E3FD236223EA6D15003861AE /* SavingsView.swift in Sources */,
+				E3FD236023EA6D0D003861AE /* OverviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
