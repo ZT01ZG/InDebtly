@@ -10,7 +10,12 @@ import SwiftUI
 
 struct OverviewView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		ZStack(alignment: .center) {
+			RadialGradient(gradient: Gradient(colors: [.orange, .red]), center: .center, startRadius: 3, endRadius: 750).edgesIgnoringSafeArea(.all)
+			Text("InDebted")
+				.scaledFont(name: Fonts.futuraBoldCondensed, size: 48)
+				.foregroundColor(.white)
+		}
     }
 }
 

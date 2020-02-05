@@ -16,27 +16,31 @@ struct TabbedView: View {
 
 			OverviewView().tabItem {
 				Image(systemName: selectedIndex == 1 ? "house.fill" : "house")
+					.font(.largeTitle)
 				Text("Home")
 			}.tag(1)
 
 			SavingsView().tabItem {
 				Image(systemName: selectedIndex == 2 ? "chevron.up.square.fill" : "chevron.up.square")
+					.font(.largeTitle)
 				Text("Savings")
 			}.tag(2)
 
 			DebtView().tabItem {
 				Image(systemName: selectedIndex == 3 ? "chevron.down.square.fill" : "chevron.down.square")
+					.font(.largeTitle)
 				Text("Debts")
 			}.tag(3)
 
 			SettingsView().tabItem {
 				Image(systemName: "slider.horizontal.3")
+					.font(.largeTitle)
 				Text("Settings")
 			}.tag(4)
 		}.accentColor(getHighlight(num: selectedIndex)).edgesIgnoringSafeArea(.top)
     }
 
-	func getHighlight(num: Int) -> Color {
+	private func getHighlight(num: Int) -> Color {
 		switch num {
 			case 1: return .blue
 			case 2: return .green
