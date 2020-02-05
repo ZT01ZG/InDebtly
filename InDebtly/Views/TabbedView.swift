@@ -33,7 +33,7 @@ struct TabbedView: View {
 				Image(systemName: "slider.horizontal.3")
 				Text("Settings")
 			}.tag(4)
-		}.accentColor(.pink)
+		}.accentColor(.pink).edgesIgnoringSafeArea(.top)
     }
 }
 
