@@ -15,17 +15,17 @@ struct TabbedView: View {
 		TabView(selection: $selectedIndex) {
 
 			OverviewView().tabItem {
-				Image(systemName: selectedIndex == 0 ? "house" : "house.fill")
+				Image(systemName: selectedIndex == 1 ? "house.fill" : "house")
 				Text("Home")
 			}.tag(1)
 
 			SavingsView().tabItem {
-				Image(systemName: selectedIndex == 1 ? "chevron.up.square" : "chevron.up.square.fill")
+				Image(systemName: selectedIndex == 2 ? "chevron.up.square.fill" : "chevron.up.square")
 				Text("Savings")
 			}.tag(2)
 
 			DebtView().tabItem {
-				Image(systemName: "chevron.down.square.fill")
+				Image(systemName: selectedIndex == 3 ? "chevron.down.square.fill" : "chevron.down.square")
 				Text("Debts")
 			}.tag(3)
 
@@ -33,12 +33,21 @@ struct TabbedView: View {
 				Image(systemName: "slider.horizontal.3")
 				Text("Settings")
 			}.tag(4)
-		}.accentColor(.pink).edgesIgnoringSafeArea(.top)
+		}.accentColor(getHighlight(num: selectedIndex)).edgesIgnoringSafeArea(.top)
     }
+
+	func getHighlight(num: Int) -> Color {
+		switch num {
+			case 1: return .blue
+			case 2: return .green
+			case 3: return .red
+			default: return .orange
+		}
+	}
 }
 
-//struct TabbedView_Previews: PreviewProvider {
-//    static var previews: some View {
-//		TabbedView(selectedIndex: 2)
-//    }
-//}
+struct TabbedView_Previews: PreviewProvider {
+    static var previews: some View {
+		TabbedView(selectedIndex: 4)
+    }
+}

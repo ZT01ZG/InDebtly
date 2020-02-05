@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30E80FA23EB25B8004FAB21 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E80F923EB25B7004FAB21 /* CircularView.swift */; };
 		E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */; };
 		E33ACA0423E9CE8D00C94A6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0323E9CE8D00C94A6A /* Constants.swift */; };
 		E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827423E7A71D00B057C0 /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30E80F923EB25B7004FAB21 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 		E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex+UIColor.swift"; sourceTree = "<group>"; };
 		E33ACA0323E9CE8D00C94A6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E3EE827123E7A71D00B057C0 /* InDebtly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDebtly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E30E80FB23EB25BD004FAB21 /* MiniReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				E30E80F923EB25B7004FAB21 /* CircularView.swift */,
+			);
+			path = MiniReusableViews;
+			sourceTree = "<group>";
+		};
 		E3EE826823E7A71D00B057C0 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 				E3FD236123EA6D15003861AE /* SavingsView.swift */,
 				E3FD236323EA6D1D003861AE /* DebtView.swift */,
 				E3FD236523EA6D24003861AE /* SettingsView.swift */,
+				E30E80FB23EB25BD004FAB21 /* MiniReusableViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30E80FA23EB25B8004FAB21 /* CircularView.swift in Sources */,
 				E3EE828E23E7A80C00B057C0 /* ScaledFont.swift in Sources */,
 				E3FD236423EA6D1D003861AE /* DebtView.swift in Sources */,
 				E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */,
