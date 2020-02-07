@@ -12,7 +12,7 @@ struct OverviewView: View {
     var body: some View {
 		ZStack(alignment: .center) {
 			RadialGradient(gradient: Gradient(colors: [.orange, .red]), center: .center, startRadius: 3, endRadius: 750).edgesIgnoringSafeArea(.all)
-			Text("InDebted")
+			Text(AppConstants.appName)
 				.scaledFont(name: Fonts.futuraBoldCondensed, size: 48)
 				.foregroundColor(.white)
 		}

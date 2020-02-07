@@ -10,6 +10,10 @@
 		E30E80FA23EB25B8004FAB21 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E80F923EB25B7004FAB21 /* CircularView.swift */; };
 		E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */; };
 		E33ACA0423E9CE8D00C94A6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0323E9CE8D00C94A6A /* Constants.swift */; };
+		E34EF84C23EE0C200090F9DD /* SavingsGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84B23EE0C200090F9DD /* SavingsGoal.swift */; };
+		E34EF84E23EE0C310090F9DD /* DebtGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84D23EE0C310090F9DD /* DebtGoal.swift */; };
+		E34EF85023EE0C4C0090F9DD /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84F23EE0C4C0090F9DD /* ExampleData.swift */; };
+		E3BA67CD23ECC20B003D17EB /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA67CC23ECC20B003D17EB /* Goal.swift */; };
 		E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827423E7A71D00B057C0 /* AppDelegate.swift */; };
 		E3EE827723E7A71D00B057C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */; };
 		E3EE827A23E7A71D00B057C0 /* InDebtly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827823E7A71D00B057C0 /* InDebtly.xcdatamodeld */; };
@@ -31,6 +35,10 @@
 		E30E80F923EB25B7004FAB21 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 		E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex+UIColor.swift"; sourceTree = "<group>"; };
 		E33ACA0323E9CE8D00C94A6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E34EF84B23EE0C200090F9DD /* SavingsGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoal.swift; sourceTree = "<group>"; };
+		E34EF84D23EE0C310090F9DD /* DebtGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtGoal.swift; sourceTree = "<group>"; };
+		E34EF84F23EE0C4C0090F9DD /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		E3BA67CC23ECC20B003D17EB /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		E3EE827123E7A71D00B057C0 /* InDebtly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDebtly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE827423E7A71D00B057C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,17 @@
 			path = MiniReusableViews;
 			sourceTree = "<group>";
 		};
+		E34EF85123EE0C620090F9DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3BA67CC23ECC20B003D17EB /* Goal.swift */,
+				E34EF84F23EE0C4C0090F9DD /* ExampleData.swift */,
+				E34EF84D23EE0C310090F9DD /* DebtGoal.swift */,
+				E34EF84B23EE0C200090F9DD /* SavingsGoal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E3EE826823E7A71D00B057C0 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +110,7 @@
 				E3EE827423E7A71D00B057C0 /* AppDelegate.swift */,
 				E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */,
 				E3EE827B23E7A71D00B057C0 /* ContentView.swift */,
+				E34EF85123EE0C620090F9DD /* Model */,
 				E3EE829023E7A81F00B057C0 /* Views */,
 				E3EE828F23E7A81600B057C0 /* Extensions */,
 				E3EE827D23E7A71F00B057C0 /* Assets.xcassets */,
@@ -211,9 +231,13 @@
 				E3FD236423EA6D1D003861AE /* DebtView.swift in Sources */,
 				E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */,
 				E3EE827A23E7A71D00B057C0 /* InDebtly.xcdatamodeld in Sources */,
+				E34EF84E23EE0C310090F9DD /* DebtGoal.swift in Sources */,
 				E3EE828C23E7A72C00B057C0 /* MainInterfaceView.swift in Sources */,
+				E34EF85023EE0C4C0090F9DD /* ExampleData.swift in Sources */,
 				E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */,
+				E34EF84C23EE0C200090F9DD /* SavingsGoal.swift in Sources */,
 				E3EE827C23E7A71D00B057C0 /* ContentView.swift in Sources */,
+				E3BA67CD23ECC20B003D17EB /* Goal.swift in Sources */,
 				E3FD236623EA6D24003861AE /* SettingsView.swift in Sources */,
 				E3FD235E23EA6C9B003861AE /* TabbedView.swift in Sources */,
 				E3EE827723E7A71D00B057C0 /* SceneDelegate.swift in Sources */,

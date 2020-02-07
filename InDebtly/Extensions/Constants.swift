@@ -46,3 +46,7 @@ struct Fonts {
 	static let futuraBoldCondensed = "Futura-CondensedExtraBold"
 	static let futuraMedCondensed = "Futura-CondensedMedium"
 }
+
+struct AppConstants {
+	static let appName: String = "InDebted"
+}
