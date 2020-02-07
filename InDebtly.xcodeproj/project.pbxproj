@@ -88,6 +88,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E34EF85223EE0D0B0090F9DD /* TavViewAndPages */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD235D23EA6C9B003861AE /* TabbedView.swift */,
+				E3FD235F23EA6D0D003861AE /* OverviewView.swift */,
+				E3FD236123EA6D15003861AE /* SavingsView.swift */,
+				E3FD236323EA6D1D003861AE /* DebtView.swift */,
+				E3FD236523EA6D24003861AE /* SettingsView.swift */,
+			);
+			path = TavViewAndPages;
+			sourceTree = "<group>";
+		};
 		E3EE826823E7A71D00B057C0 = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +157,7 @@
 			children = (
 				E3EE828B23E7A72C00B057C0 /* MainInterfaceView.swift */,
 				E3EE829123E7A8A500B057C0 /* ActivityIndicatorView.swift */,
-				E3FD235D23EA6C9B003861AE /* TabbedView.swift */,
-				E3FD235F23EA6D0D003861AE /* OverviewView.swift */,
-				E3FD236123EA6D15003861AE /* SavingsView.swift */,
-				E3FD236323EA6D1D003861AE /* DebtView.swift */,
-				E3FD236523EA6D24003861AE /* SettingsView.swift */,
+				E34EF85223EE0D0B0090F9DD /* TavViewAndPages */,
 				E30E80FB23EB25BD004FAB21 /* MiniReusableViews */,
 			);
 			path = Views;
