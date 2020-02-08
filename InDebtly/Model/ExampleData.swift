@@ -21,4 +21,7 @@ class ExampleData {
 		DebtGoal(title: "CarLoan"),
 		DebtGoal(title: "Home Loan")
 	]
+
+	var testDataSavingsGoal = SavingsGoal(title: "Wonderwall")
+	var testDataDebtGoal = DebtGoal(title: "Highway to Hell")
 }

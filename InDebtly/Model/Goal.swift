@@ -12,4 +12,6 @@ protocol Goal {
 	var goalTitle: String { get set }
 	var goalCreatedAt: Date { get }
 	var goalUUID: UUID { get }
+
+	func formatDate(date: Date) -> String
 }

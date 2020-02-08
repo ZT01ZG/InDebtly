@@ -17,8 +17,7 @@ struct ActivityIndicatorView: View {
 		GeometryReader { (geometry: GeometryProxy) in
 			ForEach(0..<5) { index in
 				Group {
-					Circle()
-						.foregroundColor(Color(Primaries.NavyBlue).opacity(0.25))
+					Circle()	.foregroundColor(Color(Primaries.NavyBlue).opacity(0.25))
 						.frame(width: geometry.size.width / 5, height: geometry.size.height / 5)
 						.scaleEffect(!self.isAnimating ? 1 - CGFloat(index) / 5 : 0.2 + CGFloat(index) / 5)
 						.offset(y: geometry.size.width / 10 - geometry.size.height / 2)

@@ -9,9 +9,44 @@
 import SwiftUI
 
 struct DebtView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+
+	var dateFormatter: DateFormatter = {
+		let formatter = DateFormatter()
+		formatter.dateFormat = "YYYY-MM-dd HH:mm:ss +0800"
+		return formatter
+	}()
+
+	var numFormatter: NumberFormatter = {
+		let formatter = NumberFormatter()
+		formatter.numberStyle = .currency
+		return formatter
+	}()
+
+	init() {
+		UITableView.appearance().backgroundColor = .systemGray6
+		UITableViewCell.appearance().backgroundColor = .systemGray6
+		UINavigationBar.appearance().backgroundColor = .systemGray3
+	}
+
+	var body: some View {
+		NavigationView {
+			List(ExampleData().debtGoals, id: \.goalUUID) { item in
+				NavigationLink(destination: GoalDetailView(goal: item)) {
+					ZStack {
+						VStack(alignment: .leading) {
+							Text(item.goalTitle)
+								.scaledFont(name: Fonts.avenirNextBold, size: 20)
+								.foregroundColor(.primary)
+							Text("\(self.dateFormatter.string(from: item.goalCreatedAt))")
+								.scaledFont(name: Fonts.avenirNextMediumItalic, size: 12)
+								.foregroundColor(.secondary)
+						}
+					}
+				}
+			}.navigationBarTitle(Text("Debts"))
+				.background(Color.blue)
+		}
+	}
 }
 
 struct DebtView_Previews: PreviewProvider {

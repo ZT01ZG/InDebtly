@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E30E80FA23EB25B8004FAB21 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E80F923EB25B7004FAB21 /* CircularView.swift */; };
+		E330A48923EE583C00241923 /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E330A48823EE583C00241923 /* GoalDetailView.swift */; };
 		E33ACA0223E9CE4300C94A6A /* Hex+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */; };
 		E33ACA0423E9CE8D00C94A6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33ACA0323E9CE8D00C94A6A /* Constants.swift */; };
 		E34EF84C23EE0C200090F9DD /* SavingsGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84B23EE0C200090F9DD /* SavingsGoal.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		E30E80F923EB25B7004FAB21 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		E330A48823EE583C00241923 /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 		E33ACA0123E9CE4300C94A6A /* Hex+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex+UIColor.swift"; sourceTree = "<group>"; };
 		E33ACA0323E9CE8D00C94A6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E34EF84B23EE0C200090F9DD /* SavingsGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoal.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				E3EE828B23E7A72C00B057C0 /* MainInterfaceView.swift */,
 				E3EE829123E7A8A500B057C0 /* ActivityIndicatorView.swift */,
+				E330A48823EE583C00241923 /* GoalDetailView.swift */,
 				E34EF85223EE0D0B0090F9DD /* TavViewAndPages */,
 				E30E80FB23EB25BD004FAB21 /* MiniReusableViews */,
 			);
@@ -250,6 +253,7 @@
 				E3FD235E23EA6C9B003861AE /* TabbedView.swift in Sources */,
 				E3EE827723E7A71D00B057C0 /* SceneDelegate.swift in Sources */,
 				E3EE829223E7A8A500B057C0 /* ActivityIndicatorView.swift in Sources */,
+				E330A48923EE583C00241923 /* GoalDetailView.swift in Sources */,
 				E33ACA0423E9CE8D00C94A6A /* Constants.swift in Sources */,
 				E3FD236223EA6D15003861AE /* SavingsView.swift in Sources */,
 				E3FD236023EA6D0D003861AE /* OverviewView.swift in Sources */,

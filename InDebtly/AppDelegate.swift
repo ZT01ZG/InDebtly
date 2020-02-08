@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+		setupAppearance()
 		return true
 	}
 
@@ -78,5 +79,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	    }
 	}
 
+	fileprivate func setupAppearance() {
+		let myNavBars = UINavigationBarAppearance()
+		myNavBars.backgroundColor = .systemTeal
+	}
 }
 

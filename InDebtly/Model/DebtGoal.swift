@@ -18,4 +18,8 @@ class DebtGoal: Goal {
 		self.goalCreatedAt = Date()
 		self.goalUUID = UUID()
 	}
+
+	func formatDate(date: Date) -> String {
+		ISO8601DateFormatter().string(from: date)
+	}
 }
