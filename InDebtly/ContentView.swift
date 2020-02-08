@@ -10,7 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-		TabbedView(selectedIndex: 2)
+//		TabbedView(selectedIndex: 2)
+		AnimatedGradientView3()
     }
 }
 

@@ -9,12 +9,20 @@
 import SwiftUI
 
 struct OverviewView: View {
+
+	@State private var enabled: Bool = false
+
     var body: some View {
-		ZStack(alignment: .center) {
-			RadialGradient(gradient: Gradient(colors: [.orange, .red]), center: .center, startRadius: 3, endRadius: 750).edgesIgnoringSafeArea(.all)
-			Text(AppConstants.appName)
-				.scaledFont(name: Fonts.futuraBoldCondensed, size: 48)
-				.foregroundColor(.white)
+		ZStack() {
+			RadialGradient(gradient: Gradient(colors: [.blue, .red]), center: .bottomTrailing, startRadius: 15, endRadius: 1000).edgesIgnoringSafeArea(.all)
+			VStack(alignment: .center) {
+				Text(AppConstants.appName)
+					.padding([.top, .bottom], 25)
+					.padding([.leading, .trailing], 10)
+					.scaledFont(name: Fonts.futuraBoldCondensed, size: 48)
+					.foregroundColor(.white)
+					.cornerRadius(24)
+			}
 		}
     }
 }

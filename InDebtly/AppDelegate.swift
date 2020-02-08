@@ -82,6 +82,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	fileprivate func setupAppearance() {
 		let myNavBars = UINavigationBarAppearance()
 		myNavBars.backgroundColor = .systemTeal
+
+		UITableView.appearance().backgroundColor = .systemTeal
+		UITableViewCell.appearance().backgroundColor = .systemTeal
 	}
 }
 

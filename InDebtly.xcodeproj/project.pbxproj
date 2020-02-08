@@ -15,6 +15,7 @@
 		E34EF84E23EE0C310090F9DD /* DebtGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84D23EE0C310090F9DD /* DebtGoal.swift */; };
 		E34EF85023EE0C4C0090F9DD /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34EF84F23EE0C4C0090F9DD /* ExampleData.swift */; };
 		E3BA67CD23ECC20B003D17EB /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA67CC23ECC20B003D17EB /* Goal.swift */; };
+		E3D77DD923EF321B004181B9 /* AnimatedGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D77DD823EF321B004181B9 /* AnimatedGradientView.swift */; };
 		E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827423E7A71D00B057C0 /* AppDelegate.swift */; };
 		E3EE827723E7A71D00B057C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */; };
 		E3EE827A23E7A71D00B057C0 /* InDebtly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3EE827823E7A71D00B057C0 /* InDebtly.xcdatamodeld */; };
@@ -41,6 +42,7 @@
 		E34EF84D23EE0C310090F9DD /* DebtGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtGoal.swift; sourceTree = "<group>"; };
 		E34EF84F23EE0C4C0090F9DD /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
 		E3BA67CC23ECC20B003D17EB /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		E3D77DD823EF321B004181B9 /* AnimatedGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradientView.swift; sourceTree = "<group>"; };
 		E3EE827123E7A71D00B057C0 /* InDebtly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDebtly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE827423E7A71D00B057C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				E3EE827423E7A71D00B057C0 /* AppDelegate.swift */,
 				E3EE827623E7A71D00B057C0 /* SceneDelegate.swift */,
 				E3EE827B23E7A71D00B057C0 /* ContentView.swift */,
+				E3D77DD823EF321B004181B9 /* AnimatedGradientView.swift */,
 				E34EF85123EE0C620090F9DD /* Model */,
 				E3EE829023E7A81F00B057C0 /* Views */,
 				E3EE828F23E7A81600B057C0 /* Extensions */,
@@ -244,6 +247,7 @@
 				E3EE827A23E7A71D00B057C0 /* InDebtly.xcdatamodeld in Sources */,
 				E34EF84E23EE0C310090F9DD /* DebtGoal.swift in Sources */,
 				E3EE828C23E7A72C00B057C0 /* MainInterfaceView.swift in Sources */,
+				E3D77DD923EF321B004181B9 /* AnimatedGradientView.swift in Sources */,
 				E34EF85023EE0C4C0090F9DD /* ExampleData.swift in Sources */,
 				E3EE827523E7A71D00B057C0 /* AppDelegate.swift in Sources */,
 				E34EF84C23EE0C200090F9DD /* SavingsGoal.swift in Sources */,
@@ -393,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1479;
 				DEVELOPMENT_ASSET_PATHS = "\"InDebtly/Preview Content\"";
 				DEVELOPMENT_TEAM = G3S2RG9ZZK;
 				ENABLE_PREVIEWS = YES;
@@ -401,10 +406,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2020.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roguespork.InDebtly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -413,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1479;
 				DEVELOPMENT_ASSET_PATHS = "\"InDebtly/Preview Content\"";
 				DEVELOPMENT_TEAM = G3S2RG9ZZK;
 				ENABLE_PREVIEWS = YES;
@@ -421,10 +428,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2020.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roguespork.InDebtly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

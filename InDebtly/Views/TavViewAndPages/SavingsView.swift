@@ -18,6 +18,8 @@ struct SavingsView: View {
 
 	init() {
 		UINavigationBarAppearance().backgroundColor = .clear
+		UITableView.appearance().backgroundColor = .black
+		UITableViewCell.appearance().backgroundColor = .black
 	}
 
 	var body: some View {

@@ -10,24 +10,21 @@ import UIKit
 
 struct MSXColors {
 	static let overallAmbientColor = UIColor(hex: 0x6C6E70)
-	//MARK: Oranges
+	// Oranges
 	static let highlightColorLight = UIColor(hex: 0xF0AB00)
 	static let highlightColorDark = UIColor(hex: 0xE19200)
-	//MARK: LighterGreys
+	// LighterGreys
 	static let lighterAmbientColor = UIColor(hex: 0xDBDCDB)
 	static let lightestAmbientColor = UIColor(hex: 0xE8E8E9)
-	//MARK: DARKER GREYS
+	// DARKER GREYS
 	static let darkerAmbientColor = UIColor(hex: 0x3A3C3B)
 	static let darkestAmbientColor = UIColor(hex: 0x121212)
-}
-
-struct Colors {
-	static let seanDarkGrey = UIColor(red: 60/255, green: 60/255, blue: 60/255, alpha: 1)
 }
 
 struct SPXColors {
 	static let CGPGrey = UIColor(hex: 0x565554)
 	static let KeyLimePie = UIColor(hex: 0xC5FE01)
+	static let seanDarkGrey = UIColor(red: 60/255, green: 60/255, blue: 60/255, alpha: 1)
 }
 
 struct Primaries {
